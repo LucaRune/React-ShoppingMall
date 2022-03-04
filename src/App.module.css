@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+* {
+  font-family: "Noto Sans KR", sans-serif;
+  font-style: normal;
+  margin: 0;
+  word-break: keep-all;
+  -webkit-tap-highlight-color: transparent;
+}
+html {
+  background: white !important;
+  font-size: 10px;
+}
+#ElementCardSection{
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+#ElementCardWrapper{
+  width: 33.33%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+}
