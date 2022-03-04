@@ -1,25 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.module.css';
+import './layout/layout.module.css'
+import {flowerData} from './data';
+import ElementCard from "./component/ElementCard";
+import MainBanner from "./component/MainBanner";
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className="App">
+            <div className="layoutContainer">
+                <div className="containerInner">
+                    <MainBanner/>
+                    <section className="ElementCardSection">
+                        {
+                            flowerData.map((data, id) =>
+                                (
+                                    <div className="ElementCardWrapper" key={id}>
+                                        <ElementCard data={data}/>
+                                    </div>
+                                )
+                            )
+                        }
+                    </section>
+                </div>
+            </div>
+        </div>
+    );
 }
 
 export default App;

@@ -11,12 +11,12 @@ html {
   background: white !important;
   font-size: 10px;
 }
-#ElementCardSection{
+.ElementCardSection{
   display: flex;
   flex-wrap: wrap;
   box-sizing: border-box;
 }
-#ElementCardWrapper{
+.ElementCardWrapper{
   width: 33.33%;
   box-sizing: border-box;
   display: flex;

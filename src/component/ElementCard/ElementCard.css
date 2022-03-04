@@ -1,0 +1,11 @@
+.thumbnail{
+    margin-bottom: 15px;
+    width: 250px;
+}
+.name{
+    font-style: italic;
+    font-weight: bold;
+}
+.price{
+    margin-top: 5px;
+}
