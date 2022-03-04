@@ -1,4 +1,4 @@
-import './App.module.css';
+import './App.css';
 import './layout/layout.module.css'
 import {flowerData} from './data';
 import ElementCard from "./component/ElementCard";

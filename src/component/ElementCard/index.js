@@ -22,7 +22,7 @@ const ElementCard = (props) => {
     }
 
     return (
-        <div id="ElementCardWrapper">
+        <div style={{maxWidth:"250px"}}>
             <img src={imgHandler(img)} className='thumbnail'/>
             <br/>
             <h4 className="name">{title}</h4>
