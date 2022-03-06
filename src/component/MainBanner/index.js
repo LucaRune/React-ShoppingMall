@@ -6,13 +6,13 @@ const MainBanner = () => {
         <div className="background">
             <div className="bannerWrapper">
                 <h1 className="bannerTitle">
-                    제목임
+                    This is Title
                 </h1>
                 <p className="bannerSubtitle">
-                    부제목임
+                    Sub Title
                 </p>
                 <button className="bannerButton">
-                    버튼임
+                    Button
                 </button>
             </div>
         </div>
