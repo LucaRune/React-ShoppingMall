@@ -12,7 +12,7 @@ const MainBanner = () => {
                     Sub Title
                 </p>
                 <button className="bannerButton">
-                    Button
+                    Go
                 </button>
             </div>
         </div>

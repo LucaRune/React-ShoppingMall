@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&display=swap');
+.Navbar{
+    font-size: 17px;
+    display: flex;
+    padding: 8px;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    margin: 5px;
+}
+
+.Navbar a:hover{
+    background-image: linear-gradient(wheat,wheat);
+    background-position: center;
+    background-size: 80% 15%;
+    background-repeat: no-repeat;
+}
+
+#active{
+    color: maroon;
+    background: none;
+    font-family: 'Merriweather', serif;
+    font-size: 21px;
+}
+.login{
+    text-align: right;
+}

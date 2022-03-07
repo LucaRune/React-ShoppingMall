@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@600&display=swap');
+
 .background{
     height: 200px;
     background-image: url("/src/img/back1.jpg");
-    background-size: cover;
+    background-size: contain;
     color: dimgrey;
     font-size: large;
     font-style: italic;
@@ -9,17 +11,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: 'Lora', sans-serif;
 }
-.background::after{
-    height: 200px;
-    background-image: url("/src/img/back1.jpg");
-    background-size: cover;
-    color: dimgrey;
-    font-size: large;
-    font-style: italic;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    opacity: 0;
-}
+
+
