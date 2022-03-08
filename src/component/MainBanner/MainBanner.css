@@ -12,6 +12,13 @@
     align-items: center;
     justify-content: center;
     font-family: 'Lora', sans-serif;
+    line-height: 1.5;
 }
 
-
+.bannerButton {
+    background-color: rosybrown;
+    color: white;
+    border-color: gray;
+    border-radius: 5px;
+    margin-top: 10px;
+}

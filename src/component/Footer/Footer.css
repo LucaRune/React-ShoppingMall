@@ -1,8 +1,8 @@
 .footer{
-    padding: 20px;
     display: flex;
     background: linen;
-    justify-content: center;
+    justify-content: left;
     margin-top: 30px;
-    line-height: 1.5;
+    padding: 20px 5%;
+    line-height: 1.7;
 }

@@ -1,5 +1,6 @@
 import React from 'react';
 import './MainBanner.css'
+import {Link} from "react-router-dom";
 
 const MainBanner = () => {
     return (
@@ -12,7 +13,7 @@ const MainBanner = () => {
                     Sub Title
                 </p>
                 <button className="bannerButton">
-                    Go
+                    <Link to="/detail">Go</Link>
                 </button>
             </div>
         </div>

@@ -11,7 +11,6 @@ const ElementCard = (props) => {
     const {
         content,title,id,price,img
     }=props.data
-    console.log(props)
 
     const imgHandler = (img)=> {
         switch (img){
@@ -32,8 +31,7 @@ const ElementCard = (props) => {
 
     return (
         <div style={{maxWidth:"250px"}}>
-            <img src={imgHandler(img)} className='thumbnail'/>
-            <br/>
+            <img src={imgHandler(img)} className='thumbnail'/><br/>
             <h4 className="name">{title}</h4>
             <p className="price">{content} <br/> {price}$</p>
         </div>
