@@ -5,8 +5,10 @@ const JoinPage = () => {
     return (
         <div>
             <Route path="/join">
-            회원가입 페이지
-        </Route>
+                <p>회원가입 페이지</p>
+                <input/>
+                <input/>
+            </Route>
         </div>
     );
 };

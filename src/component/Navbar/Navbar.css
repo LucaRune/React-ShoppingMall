@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&display=swap');
 .Navbar{
     font-size: 17px;
-    display: flex;
-    padding: 8px;
-
+    padding: 3px;
+    width: 100%;
+    display: inline-block;
 }
 a{
     text-decoration: none;
     color: black;
-    padding: 10px;
+    /*padding: 10px;*/
     margin: 5px;
 }
 
@@ -23,8 +23,36 @@ a{
     color: maroon;
     background: none;
     font-family: 'Merriweather', serif;
-    font-size: 21px;
+    font-size: 23px;
 }
-.login{
-    text-align: right;
+
+
+.Navbar>ul{
+    float: left;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.Navbar>ul>li{
+    display: inline-block;
+    padding: 0;
+}
+
+
+.Navbar>div{
+    float: right;
+    padding-top: 3px;
+
+}
+
+.Navbar a{
+    display: block;
+    text-decoration: none;
+    padding: 10px 10px;
+    color: black;
+    /*margin: 5px;*/
+}
+#join-tab{
+    margin-right: 15px;
 }

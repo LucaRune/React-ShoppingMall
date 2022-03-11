@@ -9,7 +9,9 @@
 html {
   background: white !important;
   font-size: 10px;
+  height: 100%;
 }
+
 .ElementCardSection{
   font-family: "Noto Sans KR", sans-serif;
   display: flex;
@@ -25,6 +27,7 @@ html {
   flex-direction: column;
   align-items: center;
 }
+
 @media (max-width: 800px) {
   .ElementCardWrapper{
     width: 50%;
@@ -34,4 +37,15 @@ html {
     width: 100%;
   }
 }
+@media (min-width: 1300px) {
+  .ElementCardWrapper{
+    width: 25%;
+  }
+}
+@media (min-width: 1600px) {
+  .ElementCardWrapper{
+    width: 20%;
+  }
+}
+
 
