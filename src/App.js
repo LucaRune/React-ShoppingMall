@@ -6,6 +6,7 @@ import MainBanner from "./component/MainBanner";
 import Footer from "./component/Footer";
 import Navbar from "./component/Navbar/Navbar";
 import DetailPage from "./component/DetailPage/DetailPage";
+import MyCart from "./component/MyCart/MyCart";
 
 import { Link,Route,Switch } from 'react-router-dom';
 import JoinPage from "./component/JoinPage/JoinPage";
@@ -15,9 +16,9 @@ import JoinPage from "./component/JoinPage/JoinPage";
 function App(data = data) {
     return (
         <div className="App">
+            <Navbar/>
             <div className="layoutContainer">
                 <Route exact path="/">
-                    <Navbar/>
                     <div className="containerInner">
                         <MainBanner/>
                         <section className="ElementCardSection">
@@ -32,14 +33,13 @@ function App(data = data) {
                             }
                         </section>
                     </div>
-                    <Footer/>
                 </Route>
                 <Route path="/detail">
-                    <Navbar/>
                     <DetailPage data={data}/>
                 </Route>
                 <JoinPage/>
-
+                <MyCart/>
+                <Footer/>
             </div>
         </div>
             );
