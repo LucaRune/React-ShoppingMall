@@ -7,7 +7,6 @@ const Footer = () => {
             This is footer &emsp;&emsp;<br/>&emsp;&emsp;<hr/>&emsp;&emsp;
             <p>
             Nice to meet you ! <br/>
-            Nice to meet you ! <br/>
             made by me 🙋‍♀️ <br/>
             PhoneNumber📱 010 - 4027 - 0190
             </p>

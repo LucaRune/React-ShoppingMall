@@ -1,5 +1,4 @@
-export const flowerData=
-
+export const flowerdata =
     [
         {
             id: 0,

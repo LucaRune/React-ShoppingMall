@@ -6,11 +6,15 @@ import redsnapdragon from '../../img/red snapdragon.jpg';
 import yellowsnapdragon from '../../img/yellow snapdragon.jpg';
 import pinksnapdragon from '../../img/pink snapdragon.jpg';
 import './ElementCard.css'
+import {flowerdata} from "../../data";
+
 
 const ElementCard = (props) => {
+
     const {
         content,title,id,price,img
     }=props.data
+
 
     const imgHandler = (img)=> {
         switch (img){
@@ -37,5 +41,6 @@ const ElementCard = (props) => {
         </div>
     );
 };
+
 
 export default ElementCard;

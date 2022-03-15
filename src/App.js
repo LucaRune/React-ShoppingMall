@@ -1,19 +1,20 @@
 import './App.css';
 import './layout/layout.module.css'
-import {flowerData} from './data';
+import {flowerdata} from "./data";
 import ElementCard from "./component/ElementCard";
 import MainBanner from "./component/MainBanner";
 import Footer from "./component/Footer";
 import Navbar from "./component/Navbar/Navbar";
 import DetailPage from "./component/DetailPage/DetailPage";
 import MyCart from "./component/MyCart/MyCart";
-
-import { Link,Route,Switch } from 'react-router-dom';
 import JoinPage from "./component/JoinPage/JoinPage";
 
+import { Link,Route,Switch } from 'react-router-dom';
 
 
-function App(data = data) {
+
+function App() {
+
     return (
         <div className="App">
             <Navbar/>
@@ -23,7 +24,7 @@ function App(data = data) {
                         <MainBanner/>
                         <section className="ElementCardSection">
                             {
-                                flowerData.map((data, id) =>
+                                flowerdata.map((data, id) =>
                                     (
                                         <div className="ElementCardWrapper" key={id}>
                                             <ElementCard data={data}/>
@@ -44,5 +45,6 @@ function App(data = data) {
         </div>
             );
             }
+
 
 export default App;
